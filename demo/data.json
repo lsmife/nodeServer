@@ -1,0 +1,92 @@
+{
+  "device_link13": {
+    "interface": "GigabitEthernet0/1",
+    "linkname": "connect to NWTCMH-5F-01 (Courtyard by Marriott Hong Kong) Cosco FM2 A49/50",
+    "hostname": "NWTCOT-1-01",
+    "address": "203.98.160.227 255.255.255.240"
+  },
+  "device_link12": {
+    "interface": "FastEthernet0/12",
+    "linkname": "Connection to NWTCOT-1-03 FA0/10",
+    "hostname": "NWTCOT-1-01",
+    "address": "203.98.160.227 255.255.255.240"
+  },
+  "device_link11": {
+    "interface": "FastEthernet0/11",
+    "linkname": "Connection to NWTCOT-1-03 FA 0/11",
+    "hostname": "NWTCOT-1-01",
+    "address": "203.98.160.227 255.255.255.240"
+  },
+  "device_link10": {
+    "interface": "FastEthernet0/10",
+    "linkname": "Trunk connected to NWTCOT-1-LRE01 FastEthernet 0/2",
+    "hostname": "NWTCOT-1-01",
+    "address": "203.98.160.227 255.255.255.240"
+  },
+  "device_link15": {
+    "interface": "VLAN1",
+    "linkname": "Management VLAN",
+    "hostname": "NWTCOT-1-01",
+    "address": "10.100.2.5 255.255.255.0"
+  },
+  "device_link14": {
+    "interface": "GigabitEthernet0/2",
+    "linkname": "Connection to NWTCOT-1-02 Gigabit Ethernet 0/2",
+    "hostname": "NWTCOT-1-01",
+    "address": "203.98.160.227 255.255.255.240"
+  },
+  "device_link9": {
+    "interface": "FastEthernet0/9",
+    "linkname": "Trunk connected to NWTCOT-1-LRE01 FastEthernet 0/1",
+    "hostname": "NWTCOT-1-01",
+    "address": "203.98.160.227 255.255.255.240"
+  },
+  "device_link8": {
+    "interface": "FastEthernet0/8",
+    "linkname": "Trunk connected to NWTCOT-1-LRE02 Goi0/2",
+    "hostname": "NWTCOT-1-01",
+    "address": "203.98.160.227 255.255.255.240"
+  },
+  "device_link7": {
+    "interface": "FastEthernet0/7",
+    "linkname": "Trunk connected to NWTCOT-1-LRE02 Goi0/1",
+    "hostname": "NWTCOT-1-01",
+    "address": "203.98.160.227 255.255.255.240"
+  },
+  "device_link6": {
+    "interface": "FastEthernet0/6",
+    "linkname": "Chinacorp Nominees Ltd (BB02000049)",
+    "hostname": "NWTCOT-1-01",
+    "address": "203.98.160.227 255.255.255.240"
+  },
+  "device_link5": {
+    "interface": "FastEthernet0/5",
+    "linkname": "Rinex Oil",
+    "hostname": "NWTCOT-1-01",
+    "address": "203.98.160.227 255.255.255.240"
+  },
+  "device_link4": {
+    "interface": "FastEthernet0/4",
+    "linkname": "Kong Hing Agency Limited (BB02-00035)",
+    "hostname": "NWTCOT-1-01",
+    "address": "203.98.160.227 255.255.255.240"
+  },
+  "device_link3": {
+    "interface": "FastEthernet0/3",
+    "linkname": "Benfleet",
+    "hostname": "NWTCOT-1-01",
+    "address": "203.98.160.227 255.255.255.240"
+  },
+  "device_link2": {
+    "interface": "FastEthernet0/2",
+    "linkname": "China Southern",
+    "hostname": "NWTCOT-1-01",
+    "address": "203.98.160.227 255.255.255.240"
+  },
+  "device_link1": {
+    "interface": "FastEthernet0/1",
+    "linkname": "UPS SNMP",
+    "hostname": "NWTCOT-1-01",
+    "address": "203.98.160.227 255.255.255.240"
+  }
+}
