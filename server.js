@@ -10,9 +10,13 @@ const consolidate=require('consolidate');
 const cookieParser=require('cookie-parser');
 const cookieSession=require('cookie-session');
 const bodyParser=require('body-parser');
+const history = require('connect-history-api-fallback');
 
 var server=express();
-server.listen(9090);
+/******处理vue的history模式******* */
+server.use(history());
+/********end****************** * */
+server.listen(80);
 //1、获取请求数据
 //get自带
 server.use(bodyParser.urlencoded({ extended: true }));
@@ -59,4 +63,5 @@ server.use('/api/tabealu',require('./servers/tabealu/router.js')());
 server.use('/demo',require('./demo/router.js')());
 
 //5、default static
-// server.use(expressStatic('./static/'));
+server.use(express.static('public'));
+
