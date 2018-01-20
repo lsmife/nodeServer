@@ -11,7 +11,7 @@ module.exports=function(){
     router.delete('/reports-del',test._del);
     router.get('/aside',test.aside);
     router.post('/login',test.login);
-    router.get('/pointData',test._asn);
-    router.get('/pointLine',test._asn);
+    router.get('/pointdata',test._pointdata);
+    router.get('/pointline',test._pointline);
     return router;
 };

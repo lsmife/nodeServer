@@ -3,8 +3,8 @@
  */
 const db=require('../config_database');
 const common=require('../libs/common');
-const pointData=require('../demo/pointData.json');
-const pointLine=require('../demo/pointLine.json');
+const pointdata=require('../demo/pointdata.json');
+const pointline=require('../demo/pointline.json');
 exports._list=(req,res)=> {
     let queryObj = req.query;
     if(Object.getOwnPropertyNames(queryObj).length==0){
@@ -163,9 +163,13 @@ exports.reptory=(req,res)=> {
         }
     });
 }
-exports._pointData=(req,res)=>{
-    res.json(pointData);
+exports._pointdata=(req,res)=>{
+    setTimeout(function(){
+      res.json(pointdata);
+    },3000)
 }
-exports._pointLine=(req,res)=>{
-    res.json(pointLine);
+exports._pointline=(req,res)=>{
+    setTimeout(function(){
+      res.json(pointline);
+    },3000)
 }
