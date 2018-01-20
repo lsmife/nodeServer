@@ -3,7 +3,8 @@
  */
 const db=require('../config_database');
 const common=require('../libs/common');
-const asnData=require('../demo/data.json');
+const pointData=require('../demo/pointData.json');
+const pointLine=require('../demo/pointLine.json');
 exports._list=(req,res)=> {
     let queryObj = req.query;
     if(Object.getOwnPropertyNames(queryObj).length==0){
@@ -162,6 +163,9 @@ exports.reptory=(req,res)=> {
         }
     });
 }
-exports._asn=(req,res)=>{
-    res.json(asnData);
+exports._pointData=(req,res)=>{
+    res.json(pointData);
+}
+exports._pointLine=(req,res)=>{
+    res.json(pointLine);
 }

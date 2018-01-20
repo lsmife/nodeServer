@@ -1,0 +1,109 @@
+{
+    "point":[
+        {
+            "coord":[116.0321,39.8633],
+            "ip": "1.1.1.1",
+            "asn" : 1,
+            "tips": {
+                "city": "香港",
+                "country": "中国",
+                "total": 44,
+                "isControled": "yes",
+                "isColective": "yes"
+            }
+        },
+        {
+            "asn": 6,
+            "coord":[116.8835,40.05705],
+            "tips": {
+                "city": "香港",
+                "country": "中国",
+                "total": 90,
+                "isControled": "yes",
+                "isColective": "yes"
+            }
+        },
+        {
+            "asn": 6,
+            "coord":[116.87805,39.7156],
+            "tips": {
+                "city": "香港",
+                "country": "中国",
+                "total": 78,
+                "isControled": "yes",
+                "isColective": "yes"
+            }
+           
+        },
+        {
+            "asn" :9,
+            "coord":[116.3671,39.62684],
+            "tips": {
+                "city": "香港",
+                "country": "中国",
+                "total": 56,
+                "isControled": "yes",
+                "isColective": "yes"
+            }
+        },
+        {
+            "asn": 6,
+            "coord":[116.7517,39.68182],
+            "tips": {
+                "city": "香港",
+                "country": "中国",
+                "total": 11,
+                "isControled": "yes",
+                "isColective": "yes"
+            }
+        },
+        {
+            "asn": 1,
+            "coord":[116.39465,39.35129],
+            "tips": {
+                "city": "香港",
+                "country": "中国",
+                "total": 23,
+                "isControled": "yes",
+                "isColective": "yes"
+            }
+        },
+        {
+            "asn": 6,
+            "coord":[117.35046,39.440486],
+            "tips": {
+                "city": "香港2",
+                "country": "中国",
+                "total": 12,
+                "isControled": "yes",
+                "isColective": "yes"
+            }
+        }
+    ],
+    "line":[
+        {
+            "source":[116.0321,39.8633],
+            "target":[116.8835,40.05705]
+        },
+        {
+            "source":[116.0321,39.8633],
+            "target":[116.87805,39.7156]
+        },
+        {
+            "source":[116.8835,40.05705],
+            "target":[117.35046,39.440486]
+        },
+        {
+            "source":[116.3671,39.62684],
+            "target":[116.7517,39.68182]
+        },
+        {
+            "source":[116.3671,39.62684],
+            "target":[116.39465,39.35129]
+        },
+        {
+            "source":[116.8835,40.05705],
+            "target":[116.39465,39.35129]
+        }
+    ]
+}
